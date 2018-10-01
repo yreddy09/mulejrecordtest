@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<RECORD RECORDNAME="MYSRS" COPYBOOK="" DELIMITER="&lt;Tab&gt;" FONTNAME="CP037" DESCRIPTION="MYSRS case file layout" FILESTRUCTURE="Fixed_Length"
+	STYLE="0" RECORDTYPE="RecordLayout" LIST="Y" QUOTE="" RecSep="default">
+	<FIELDS>
+		<FIELD NAME="RetirementCode" POSITION="1" LENGTH="1" TYPE="Char" />
+		<FIELD NAME="SSNoftheRetiree" POSITION="2" LENGTH="9" TYPE="Char" />
+		<FIELD NAME="SSNofPerson" POSITION="11" LENGTH="9" TYPE="Char" />
+		<FIELD NAME="PayeeName" POSITION="20" LENGTH="46" TYPE="Char" />
+		<FIELD NAME="POAName" POSITION="66" LENGTH="30" TYPE="Char" />
+		<FIELD NAME="GrossAmountofBenefit" POSITION="96" LENGTH="9" TYPE="Char" />
+	</FIELDS>
+</RECORD>
